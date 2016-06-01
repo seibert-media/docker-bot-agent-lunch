@@ -5,7 +5,7 @@ RUN set -x \
 	&& git clone https://github.com/bborbe/bot_agent_lunch.git /sources \
 	&& cd /sources \
 	&& mvn test package \
-	&& cp /sources/target/bot-agent-jar-with-dependencies.jar /bot-agent.jar \
+	&& cp /sources/target/lunch-bot-jar-with-dependencies.jar /bot-agent.jar \
 	&& rm -rf /sources
 
 CMD ["java","-Xms150m","-Xmx200m","-jar","/bot-agent.jar"]
