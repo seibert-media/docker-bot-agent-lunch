@@ -1,5 +1,7 @@
 # Lunch Bot Dockerfile
 
+Bot to subscribe lunch at Seibert-Media
+
 ## Copyright and license
 
     Copyright (c) 2016, Benjamin Borbe <bborbe@rocketnews.de>
